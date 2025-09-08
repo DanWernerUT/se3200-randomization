@@ -1,40 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Random Song Generator</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <div class="container">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Random Song Generator</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
         <header>
             <h1>Random Piece Generator</h1>
         </header>
-    </div>
-    <nav></nav>
-    <div class="container">
+        <nav>
+        </nav>
         <main>
             <h4>Don't know what to play? Press generate song and click the given link and get playing!</h4>
             <button id="generateSong">Generate Song!</button>
 
-            <h4 id="songNameHeader"></h4>
-            <div id="songName"></div>
+            <div class="container">
+                <h4>Piece Name:</h4>
+                <div id="piece_name"></div>
 
-            <h4 id="songComposerHeader"></h4>
-            <div id="songComposer"></div>
+                <h4>Composer:</h4>
+                <div id="composer"></div>
 
-            <h4 id="yearPublishedHeader"></h4>
-            <div id="yearPublished"></div>
+                <h4>Year Published:</h4>
+                <div id="year_published"></div>
 
-            <h4 id="songScoreHeader"></h4>
-            <div id="songScore"></div>
+                <h4>Link:</h4>
+                <a id="song_link"></a>
 
-            <h4 id="gradeHeader"></h4>
-            <div id="grade"></div>
+                <h4 >Grade Level:</h4>
+                <div id="grade_level"></div>
+            </div>
         </main>
-    </div>
-    <footer></footer>
-</body>
-<script src="./script.js"></script>
+        <footer></footer>
+        <script src="./script.js"></script>
+    </body>
 </html>
